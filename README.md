@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Boilerplate Simples Next.js
 
-## Getting Started
+Este boilerplate Next.js foi criado para te ajudar a iniciar rapidamente projetos de qualquer tipo. Ele inclui:
 
-First, run the development server:
+- **TypeScript:** para tipagem estática e melhor segurança de código.
+- **App Router:** para navegação fácil e intuitiva entre as páginas do seu aplicativo.
+- **Material UI:** para uma interface de usuário moderna e responsiva.
+- **Prisma:** para gerenciamento de banco de dados relacional.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### Começando
+
+1. Clone este repositório:
+
+```
+git clone https://github.com/seu-usuario/simple-nextjs-boilerplate.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Entre na pasta do projeto:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+cd simple-nextjs-boilerplate
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Instale as dependências:
 
-## Learn More
+```
+yarn install
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Inicie o servidor de desenvolvimento:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+yarn dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+5. Acesse o aplicativo em http://localhost:3000 no seu navegador.
 
-## Deploy on Vercel
+### Melhorando o Boilerplate
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Este boilerplate é apenas um ponto de partida. Você pode melhorá-lo de várias maneiras para atender às suas necessidades específicas:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Adicione estilos personalizados:** você pode usar CSS, Sass ou SCSS para personalizar a aparência do seu aplicativo.
+- **Adicione funcionalidades:** você pode instalar bibliotecas e frameworks para adicionar funcionalidades específicas ao seu aplicativo, como autenticação, gerenciamento de estado, etc.
+- **Configure o Prisma:** você precisa configurar o Prisma para se conectar ao seu banco de dados PostgreSQL. Consulte a documentação do Prisma para mais informações.
+
+### Dicas para Levantar Rapidamente Projetos
+
+- **Use um starter template:** existem muitos starter templates disponíveis online que podem te ajudar a começar rapidamente um novo projeto.
+- **Use componentes reutilizáveis:** crie componentes reutilizáveis para evitar duplicar código.
+- **Use ferramentas de automação:** use ferramentas como Jest e Cypress para automatizar testes e garantir a qualidade do seu código.
+- **Documente seu código:** escreva documentação clara e concisa para que outras pessoas possam entender e usar seu código.
+
+### Recursos
+
+- **Next.js:** [https://nextjs.org/](https://nextjs.org/)
+- **Material UI:** [https://mui.com/](https://mui.com/)
+- **Prisma:** [https://www.prisma.io/](https://www.prisma.io/)
+
+### Licença
+
+Este boilerplate está licenciado sob a licença MIT.
+
+### Contribuições
+
+Sinta-se à vontade para contribuir para este boilerplate abrindo issues ou pull requests.
